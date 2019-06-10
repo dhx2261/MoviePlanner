@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.sqldroid:sqldroid:1.1.0-rc1@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sqldroid/sqldroid/1.1.0-rc1/c389481281adb788e221eb4f952ee6c5df5644fd/sqldroid-1.1.0-rc1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sqldroid/sqldroid/1.1.0-rc1/3a18b03cf3d7629a29a06dd6bf5bd534b024c372/sqldroid-1.1.0-rc1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

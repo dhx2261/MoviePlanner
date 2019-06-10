@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.MoviePlanner.MainActivity">
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="100"
+        android:title="@string/actionbar_add"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_calender"
+        android:orderInCategory="100"
+        android:title="@string/calander"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_mapview"
+        android:orderInCategory="100"
+        android:title="@string/mapview"
+        app:showAsAction="never" />
+</menu>

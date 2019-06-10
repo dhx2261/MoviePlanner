@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.MoviePlanner.MainActivity">
+
+    <item
+        android:id="@+id/addnewevent"
+        android:orderInCategory="100"
+        android:title="@string/actionbar_add"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/addmovie"
+        android:orderInCategory="100"
+        android:title="@string/AddMovie"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/addattendee"
+        android:orderInCategory="100"
+        android:title="@string/addattendee"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/removeattendee"
+        android:orderInCategory="100"
+        android:title="@string/removeattendee"
+        app:showAsAction="never" />
+</menu>

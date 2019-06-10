@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/magbetweentextview"
+        android:layout_marginTop="@dimen/magbetweentextview"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sub_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/magbetweentextview"
+        android:layout_marginTop="@dimen/magbetweentextview"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/edit_title_venue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item" />
+
+    <TextView
+        android:id="@+id/venue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/magbetweentextview"
+        android:layout_marginTop="@dimen/magbetweentextview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sub_item" />
+
+    <TextView
+        android:id="@+id/starttimetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/magbetweentextview"
+        android:layout_marginTop="@dimen/magbetweentextview"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/starttime"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/venue" />
+
+    <TextView
+        android:id="@+id/showstarttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/magbetweentextview"
+        android:layout_marginTop="@dimen/magbetweentextview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/starttimetitle" />
+
+
+    <TextView
+        android:id="@+id/endtimetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/magbetweentextview"
+        android:layout_marginTop="@dimen/magbetweentextview"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/endtime"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showstarttime" />
+
+    <TextView
+        android:id="@+id/showendtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/magbetweentextview"
+        android:layout_marginTop="@dimen/magbetweentextview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/endtimetitle" />
+
+    <TextView
+        android:id="@+id/locationtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/magbetweentextview"
+        android:layout_marginTop="@dimen/magbetweentextview"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/Location"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showendtime" />
+
+    <TextView
+        android:id="@+id/showlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/magbetweentextview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationtitle" />
+
+    <TextView
+        android:id="@+id/movietitleoneventlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/magbetweentextview"
+        android:layout_marginTop="@dimen/magbetweentextview"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/Movie"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showlocation" />
+
+    <TextView
+        android:id="@+id/movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/magbetweentextview"
+        android:layout_marginTop="@dimen/magbetweentextview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movietitleoneventlist" />
+
+    <TextView
+        android:id="@+id/atendtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/magbetweentextview"
+        android:layout_marginTop="@dimen/magbetweentextview"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/numofattend"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movie" />
+
+    <TextView
+        android:id="@+id/attendees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/magbetweentextview"
+        android:layout_marginTop="@dimen/magbetweentextview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/atendtitle" />
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/Editmagend"
+        android:layout_marginStart="@dimen/Editmagstart"
+        android:text="@string/edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/item"
+        />
+
+</android.support.constraint.ConstraintLayout>

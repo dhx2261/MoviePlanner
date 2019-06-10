@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <PreferenceCategory android:title="@string/notificationsettings" >
+        <EditTextPreference
+            android:key="threshold"
+            android:summary="@string/thresholdsummary"
+            android:numeric="integer"
+            android:title="@string/thresholdtitle">
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="duration"
+            android:summary="@string/durationsummary"
+            android:numeric="integer"
+            android:title="@string/durationtitle">
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="period"
+            android:summary="@string/period2"
+            android:numeric="integer"
+            android:title="@string/period">
+        </EditTextPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
